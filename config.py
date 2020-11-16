@@ -20,8 +20,8 @@ save_path = 'D://银行日报相关//'
 # 挖财
 bank = '恒丰银行'
 limit = 300
-userName_wc = "hengpujinke@wacai.com"
-password_wc = "MB8wHZpUikCulI2Ak+Nl/ChHjdz6fLFkyr/yQPhMAqnH+/hbi4srFGpAGpWfksdEAf6lhZAo6tmgmo+q5C8dodmTVIR43/S56sT4Zy0oCpSz01RWJ76MRsjRY7slo0KbVAGs4IVKv8/yaStpBllK/cGvJGTl7jE8wC2GLu7lx9Q="
+userName_wc = ""
+password_wc = ""
 data_login_wc = {"userName": userName_wc,"password": password_wc}
 data_target_wc = {"beginTime": beginTime, "endTime": endTime,"name":bank, "limit": str(limit), "pageNum": "1","type": "card"}
 login_url_wc = 'https://dianshi.wacai.com/ssp/api/ad-merchant/api/v1/user/login'
@@ -50,7 +50,7 @@ key_list_hsl=['time','url_code','bank_name','company_name','submit','valid_submi
 bank_map = {'恒丰银行':'87'}
 login_url_hsl = "http://ccard.yingbei365.com/index.php/Login/getLogin"
 target_url_hsl = "http://ccard.yingbei365.com/index.php/Settlement/day_list"
-data_login_hsl = {'u': 'cunying','p': 'hslzsjj25'}
+data_login_hsl = {'u': '','p': ''}
 data_target_hsl = {'bank_id': bank_map['恒丰银行'],'page': '1','datemin': beginTime,'datemax': endTime,type: 0}
 headers_hsl ={'Host': 'ccard.yingbei365.com',
 'Connection': 'keep-alive',
